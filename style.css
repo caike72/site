@@ -54,7 +54,12 @@ i {
     font-weight: 300;
     color: #00ad9b;
     font-size: 33px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+#social {
+    margin: auto;
 }
 
 #social a{
@@ -67,26 +72,41 @@ i {
 
 /*  CONTEÚDO */
 
+.content1 {
+    width: 63%;
+    margin: auto;
+    padding: 100px;
+    align-content: center;
+}
 .content1 p {
     font-size: 25px;
     color: #715aff;
-    width: 1000px;
-    margin: 100px auto 0;
+    width: 100%;
+    margin: auto
+}
+
+.content1, .content2 p {
+    max-width: 1000px;
 }
 
 .content1 img {
-    float: right;
-    margin: auto 40px;;
+    width: 35%;
+    padding: 30px;
+    min-width: 265px;
+    margin: auto;
 }
 
 .content2 p{
-    clear: both;
+    width: 63%;
     font-size: 25px;
     color: white;
-    margin-top: 100px;
-    padding: 45px 290px;
+    margin: auto;
+    padding: 45px;
 }
 
+.clear {
+    clear: both;
+}
 .content2 {
     background-color: #715aff;
 }
@@ -100,15 +120,17 @@ i {
 
 .formulario {
     padding-top: 50px;
-    width: 700px;
-    margin: 0 auto 0;
+    width: 63%;
+    margin: 0 auto;
+    justify-self: center;
+    display: table;
 }
 
 .formulario input, textarea {
     height: 50px;
     border: 2px solid #715aff;
     border-radius: 4px;
-    width: 100%;
+    width: 60%;
     font-family: Lato;
     font-size: 16px;
     line-height: 50px;
@@ -117,10 +139,13 @@ i {
     background-clip: padding-box;
     padding-left: 10px;
     outline: none;
+    margin: 0 auto;
+    display: table;
+    
+
 }
 
 textarea{
-    width: 100%;
     height: 150px;
     display: block;
     line-height: 1.5em;
@@ -135,20 +160,22 @@ textarea{
     padding: 16px 32px;
     border-radius: 5px;
     text-decoration: none;
-    margin: 4px 2px;
-    margin-right: -15px;
+    margin: 4px auto 1px;
     cursor: pointer;
-    float: right;
+    width: 61.5%;
 }
 
 form label {
-    display: block;
     font-family: Lato;
     font-weight: 700;
     font-size: 16px;
     color: #715aff;
     padding-top: 10px;
     padding-bottom: 3px;
+    padding-left: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 63%;
 }
 
 /* RODAFOOT */
